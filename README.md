@@ -10,6 +10,15 @@ The focus of this solution is on clarity, practicality, and clean design rather 
 
 ---
 
+## Project Structure
+
+The main application code is located inside the `api` module.
+
+- `api/` → contains all source code (controllers, services, models)
+- Root folder → contains Gradle configuration and build files
+
+---
+
 ## Tech Stack
 
 - Java 17
