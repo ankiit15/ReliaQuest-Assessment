@@ -1,0 +1,35 @@
+### Create Employee 1
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+x-api-key: my-secret-key
+
+{
+  "firstName": "Ankit",
+  "lastName": "Jadhav",
+  "email": "ankit@example.com",
+  "age": 21,
+  "salary": 150000,
+  "jobTitle": "SDE"
+}
+
+###
+
+### Create Employee 2
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+x-api-key: my-secret-key
+
+{
+  "firstName": "Rahul",
+  "lastName": "Sharma",
+  "email": "rahul@example.com",
+  "age": 23,
+  "salary": 160000,
+  "jobTitle": "Backend Developer"
+}
+
+###
+
+### Get All Employees
+GET http://localhost:8080/api/v1/employee
+x-api-key: my-secret-key
